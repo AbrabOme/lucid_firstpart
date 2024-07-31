@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+/* header css */
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+}
+
+header .navbar-brand img{
+    width: 130px;
+
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+.nav-item :hover{
+    color: white !important;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-item .active{
+    color: white !important;
+}
+
+
+.cus-height{
+    height: 88vh;
+    display: flex;
+}
+
+.banner-part h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+
+.banner-part h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner-part p{
+    color: #fff;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btns a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btns .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.6s;
+    margin-right: 15px;
+}
+
+.btns .btn-primary:hover{
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btns .btn-info{
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btns .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    color : white !important;
+    transition: 0.6s;
+}
